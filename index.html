@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Login Page</title>
+     <style type="text/css">
+     body{
+      font-family:'Courier New';
+      background-color:#EDB6A3 ;
+      margin: 0;
+      padding: 10px;
+     }
+     .header{
+        text-align: center;
+        padding: 10px;
+        background-color: #ffe5d9;
+        color: black;
+        font-family: "ofadi One",system-ui;
+     }
+      .container{
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 10px;
+        background: #F8E9E9;
+        border-radius: 5px;
+        box-shadow: 0 0 15px rgb(0, 0, 0 / 0.1);
+     }
+      .container h2{
+      text-align: center;
+      margin-bottom: 20px;
+      font-family: 'Times New Roman's;
+     }
+    .container input[type="text"],
+        .container input[type="password"],
+        .container input[type="file"] {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: 'Times New roman', monospace;
+        }
+      .container input[type="submit"] {
+            width: 50%;
+            padding: 10px;
+            background: #d18db1;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.5s ease; 
+        }
+        .container input[type="submit"]:hover {
+            background: #945676;
+        }
+
+     }
+     .Footer{
+      text-align: center;
+      margin-top: 15Spx;
+     }
+     .logo{
+      display: inline-block;
+      margin: 30px auto;
+      width: 90px;
+      height: auto;
+      border-radius: 50%;
+      object-fit: cover;
+     }
+     .account-info {
+            max-width: 550px;
+            margin: 50px auto;
+            padding: 10px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: none; 
+            opacity: 0;
+            transform: translateY(10px);
+           transition: opacity 0.5s ease, transform 0.5s ease; 
+        }
+        h3{
+         text-align: center;
+        }
+        h2{
+         font-family: "ofadi One", system-ui;
+        }
+
+       </style>
+</head>
+<body>
+   <div class="header">
+      <h1>❤️‍Welcome to my Page❤️‍!!</h1>
+   </div>
+   <div class="container">
+        <center><img id="profile image" src="https://i.pinimg.com/736x/a2/ee/4a/a2ee4af3af8b6cc86c961fdc0d8f730d.jpg" class="logo"></center>
+        <h2>Log in<h2>
+        <form id="Log in">
+         <input type="file" accept="image/*" id="fileinput" name="Profile Image">
+         <br/>
+               <!--Surname-->
+                <input type="text" name="username"placeholder="Enter Username">
+                <br/>
+                <!--Password-->
+                 <input type="password" id="passwordinput" name="password" placeholder="Enter Password">
+                 <br/>
+                 <input type="submit" value="Log in">
+                 </form>                                              
+                 </div>
+                 <!--Account Information-->
+                <div class="account-info" id="account-info">
+                <h2>Your Account Infomation</h2>
+                <br/>
+                <p>Username</p>
+                <p><bold>Profile Picture</p></bold>
+                
+
+   </div>
+                <div class="Footer">
+                  <h3>Maria Julie Ann Lozano [9-Emerald]</h3>
+                </div>
+
+
+
+
+
+
+</body>
+</html>
